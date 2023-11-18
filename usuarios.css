@@ -1,0 +1,79 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin-left:  100px;
+    background-color: #ffc107; /* Cor de fundo correspondente à classe bg-warning do Bootstrap */
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 0 0 calc(33.3333% - 20px); /* Utilizando calc para calcular a largura com margens entre os cartões */
+    margin: 0 10px 20px 0; /* Adiciona margem entre os cartões */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+    
+}
+
+.card-body {
+    text-align: start;
+    margin-top: 40px;
+    
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.card_col-4_p-2_m-3{
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+    border: 10px;
+    border-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.card-text{
+    margin-top: -20px;
+    font-size: 20px;
+}
